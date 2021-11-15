@@ -1,0 +1,68 @@
+@-moz-document url-prefix("https://news.ycombinator.com/") {
+:root {
+    --theme: #df7841;
+    --black: #000000;
+    --white: #ffffff;
+    --code-shade: #011627;
+    --reply: #00ffff;
+    --username: #3c963c;
+}
+
+body,
+body > center > table {
+    background-color: var(--black) !important;
+}
+
+tr > td > a,
+.yclinks > a,
+center > form,
+.comment > span {
+    color: var(--white) !important;
+}
+
+#hnmain > tbody > tr:nth-child(1) > td > table > tbody > tr > td:nth-child(1) > a > img {
+    border: none !important;
+    margin-left: 5px;
+}
+
+#hnmain > tbody > tr:nth-child(1) > td {
+    border: none !important;
+    border-radius: 8px !important;
+}
+
+#logout {
+    margin-right: 5px;
+}
+
+.reply > p > font > u > a {
+    color: var(--reply) !important;
+}
+
+textarea,
+.profileform > table > tbody > tr > td > input,
+tr > td > select,
+table > tbody > tr > td > input {
+    border: none !important;
+    border-radius: 7.5px !important;
+    resize: none;
+    color: var(--white);
+    background-color: var(--code-shade);
+    padding-left: 5px;
+}
+
+#hnmain > tbody > tr:nth-child(3) > td > table.fatitem > tbody > tr:nth-child(4) > td:nth-child(2) > form > input[type=submit]:nth-child(7),
+#hnmain > tbody > tr:nth-child(3) > td > form > input[type=submit]:nth-child(5) {
+    background-color: #ff6600;
+    border: none;
+    border-radius: 5px;
+}
+
+.comment > span > a,
+span.commtext > p > a {
+    color: var(--reply) !important;
+}
+
+tr > .subtext > a {
+    color: var(--username) !important;
+}
+}
