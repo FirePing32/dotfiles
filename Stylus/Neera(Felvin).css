@@ -9,12 +9,17 @@
     background-color: black;
 }
 
-.sc-cTJkRt, .sc-bdnxRM, .sc-eGJWMs, .sc-gKAaRy, .sc-iCoGMd {
+.sc-cTJkRt,
+.sc-bdnxRM,
+.sc-eGJWMs,
+.sc-gKAaRy,
+.sc-iCoGMd {
     color: #FFFFFF;
     background-color: black;
 }
 
-.sc-hTRkXV, .enlJuL {
+.sc-hTRkXV,
+.enlJuL {
     color: #EE722F;
 }
 
@@ -22,7 +27,8 @@
     fill: #EE722F !important;
 }
 
-.sc-gIvpjk.dVRMhB, .sc-bBjRSN.cdTyhF > p {
+.sc-gIvpjk.dVRMhB,
+.sc-bBjRSN.cdTyhF > p {
     color: #ffffff
 }
 
@@ -35,17 +41,21 @@
     color: #EE722F;
 }
 .sc-efHYUO.cFSLxQ > .sc-jNnpgg.jIfccS > p > code {
-    
+
     background-color: var(--code-shade);
     border-color: var(--code-shade);
     border-radius: 4px;
 }
 
-.sc-efHYUO.cFSLxQ > .sc-jNnpgg.jIfccS > p > a, .sc-Arkif.eJDRKz > a {
+.sc-efHYUO.cFSLxQ > .sc-jNnpgg.jIfccS > p > a,
+.sc-Arkif.eJDRKz > a {
     color: var(--link)
 }
 
-.sc-jNnpgg.jIfccS > pre > code, .snippet > pre > code, .snippet-code > pre > code, .sc-jNnpgg.jIfccS > blockquote > pre > code {
+.sc-jNnpgg.jIfccS > pre > code,
+.snippet > pre > code,
+.snippet-code > pre > code,
+.sc-jNnpgg.jIfccS > blockquote > pre > code {
     background-color: var(--code-snippet);
     color: #FFFFFF;
     border-color: var(--code-snippet);

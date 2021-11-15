@@ -1,50 +1,48 @@
 @-moz-document domain("whatsapp.com") {
-  :root {
+:root {
     --theme: #df7841;
     --black: #000000;
-  }
+}
 
-  html[dir] ._1G3Wr,
-  html[dir] ._3yWey,
-  html[dir] ._2nY6U,
-  html[dir="ltr"] .zaKsw,
-  html[dir] ._3yWey.XKmj6,
-  html[dir] ._1INL_,
-  #main > header {
+html[dir] ._1G3Wr,
+html[dir] ._3yWey,
+html[dir] ._2nY6U,
+html[dir="ltr"] .zaKsw,
+html[dir] ._3yWey.XKmj6,
+html[dir] ._1INL_,
+#main > header {
     background: var(--black);
-  }
+}
 
-  ._1dEQH:after {
-    background: linear-gradient(
-      90deg,
-      rgba(var(--theme), 0.5) 0,
-      rgba(var(--theme), 0.5) 33.33%,
-      rgba(var(--theme), 0) 44.1%,
-      rgba(var(--theme), 0) 55.8%,
-      rgba(var(--theme), 0.5) 66.66%,
-      rgba(var(--theme), 0.5)
-    ) !important;
-  }
+._1dEQH:after {
+    background: linear-gradient( 90deg,
+    rgba(var(--theme), 0.5) 0,
+    rgba(var(--theme), 0.5) 33.33%,
+    rgba(var(--theme), 0) 44.1%,
+    rgba(var(--theme), 0) 55.8%,
+    rgba(var(--theme), 0.5) 66.66%,
+    rgba(var(--theme), 0.5)) !important;
+}
 
-  #main > div._1LcQK > div > div._33LGR > div.y8WcF,
-  #main > footer > div._2BU3P.tm2tP.copyable-area {
+#main > div._1LcQK > div > div._33LGR > div.y8WcF,
+#main > footer > div._2BU3P.tm2tP.copyable-area {
     background: rgb(0, 0, 0, 0.6);
-  }
+}
 
-  ._3UaCz,
-  ._23sAs,
-  ._23sAs._2ijNh,
-  ._1un-p,
-  ._30ggS {
+._3UaCz,
+._23sAs,
+._23sAs._2ijNh,
+._1un-p,
+._30ggS {
     color: var(--theme);
-  }
+}
 
-  .dark {
+.dark {
     --active-tab-marker: var(--theme);
-  }
+}
 
-  html[dir] ._13HVn,
-  html[dir] .rgmWD {
+html[dir] ._13HVn,
+html[dir] .rgmWD {
     background-color: #df7841;
-  }
+}
 }

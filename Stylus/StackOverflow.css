@@ -1,9 +1,28 @@
 @-moz-document domain("stackoverflow.com") {
-html, body, #content, #footer, #wmd-input, #mdhelp-tabs, #wmd-help-button, .top-bar, .pt8, .d-flex, .s-sidebarwidget--header, .d-block, .question-summary, .clc-dismissable, date-group-toggle-row.js-date-group-toggle {
+html,
+body,
+#content,
+#footer,
+#wmd-input,
+#mdhelp-tabs,
+#wmd-help-button,
+.top-bar,
+.pt8,
+.d-flex,
+.s-sidebarwidget--header,
+.d-block,
+.question-summary,
+.clc-dismissable,
+date-group-toggle-row.js-date-group-toggle {
     background-color: black !important;
 }
 
-.grippie, .s-input__search, .bbw1, .s-sidebarwidget__small-bold-text, .youarehere > a > .d-flex.ai-center, .d-flex.ai-center.jc-end {
+.grippie,
+.s-input__search,
+.bbw1,
+.s-sidebarwidget__small-bold-text,
+.youarehere > a > .d-flex.ai-center,
+.d-flex.ai-center.jc-end {
     background-color: #3D3D3D !important;
 }
 
@@ -12,11 +31,13 @@ html, body, #content, #footer, #wmd-input, #mdhelp-tabs, #wmd-help-button, .top-
     border-top-color: #000000 !important;
 }
 
-body.theme-dark .top-bar .-logo .-img, .theme-dark__forced .top-bar .-logo .-img > svg > path{
+body.theme-dark .top-bar .-logo .-img,
+.theme-dark__forced .top-bar .-logo .-img > svg > path {
     fill: #EE722F
 }
 
-#submit-button, .s-btn.s-btn__primary {
+#submit-button,
+.s-btn.s-btn__primary {
     background-color: #EE722F;
 }
 
@@ -25,11 +46,22 @@ body.theme-dark .top-bar .-logo .-img, .theme-dark__forced .top-bar .-logo .-img
     border-radius: 6px;
 }
 
-.post-tag, .s-btn.s-btn__outlined.z-selected, .s-tag, .comment-user, .js-add-link.comments-link, .user-action-time > .js-gps-track, .user-details > a {
+.post-tag,
+.s-btn.s-btn__outlined.z-selected,
+.s-tag,
+.comment-user,
+.js-add-link.comments-link,
+.user-action-time > .js-gps-track,
+.user-details > a {
     color: #00ffff;
 }
 
-.mt-auto.fc-orange-400.svg-icon.iconStarVerified > path, .svg-icon.iconCheckmarkLg > path, .va-text-top.svg-icon.iconPencilSm > path, .svg-icon.iconInbox > path, .svg-icon.iconHelp > path, .svg-icon.iconStackExchange > path {
+.mt-auto.fc-orange-400.svg-icon.iconStarVerified > path,
+.svg-icon.iconCheckmarkLg > path,
+.va-text-top.svg-icon.iconPencilSm > path,
+.svg-icon.iconInbox > path,
+.svg-icon.iconHelp > path,
+.svg-icon.iconStackExchange > path {
     fill: #EE722F !important;
 }
 
@@ -47,7 +79,8 @@ body.theme-dark .top-bar .-logo .-img, .theme-dark__forced .top-bar .-logo .-img
     fill: #EE722F;
 }
 
-#hireme, .s-sidebarwidget__yellow {
+#hireme,
+.s-sidebarwidget__yellow {
     background-image: linear-gradient(89.81deg, #EE722F 30%, #6649b8 90%);
 }
 }
