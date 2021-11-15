@@ -1,0 +1,66 @@
+@-moz-document domain("neera.ai") {
+:root {
+    --code-shade: #585858;
+    --link: cyan;
+    --code-snippet: #011627;
+}
+
+.sc-gsWcmt {
+    background-color: black;
+}
+
+.sc-cTJkRt, .sc-bdnxRM, .sc-eGJWMs, .sc-gKAaRy, .sc-iCoGMd {
+    color: #FFFFFF;
+    background-color: black;
+}
+
+.sc-hTRkXV, .enlJuL {
+    color: #EE722F;
+}
+
+.sc-eKYRIR svg path {
+    fill: #EE722F !important;
+}
+
+.sc-gIvpjk.dVRMhB, .sc-bBjRSN.cdTyhF > p {
+    color: #ffffff
+}
+
+.sc-gIvpjk.dVRMhB.active {
+    color: #EE722F;
+    font-weight: bold;
+}
+
+.sc-dFRpbK.bFgzLZ {
+    color: #EE722F;
+}
+.sc-efHYUO.cFSLxQ > .sc-jNnpgg.jIfccS > p > code {
+    
+    background-color: var(--code-shade);
+    border-color: var(--code-shade);
+    border-radius: 4px;
+}
+
+.sc-efHYUO.cFSLxQ > .sc-jNnpgg.jIfccS > p > a, .sc-Arkif.eJDRKz > a {
+    color: var(--link)
+}
+
+.sc-jNnpgg.jIfccS > pre > code, .snippet > pre > code, .snippet-code > pre > code, .sc-jNnpgg.jIfccS > blockquote > pre > code {
+    background-color: var(--code-snippet);
+    color: #FFFFFF;
+    border-color: var(--code-snippet);
+    border-radius: 10px;
+}
+
+.copy-code-button {
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background-color: var(--code-snippet);
+    color: CYAN;
+}
+
+.copy-code-button:hover {
+    cursor: pointer;
+    background-color: #000000;
+}
+}
