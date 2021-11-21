@@ -1,0 +1,431 @@
+@-moz-document url-prefix("https://www.linkedin.com/") {
+:root {
+    --color-text: #ffffff;
+    --artdeco-reset-base-background-transparent: #000000;
+    --color-action: #00ffff;
+    --black: #000000;
+    --white: #ffffff;
+    --custom-theme: #df7841;
+    --color-icon-nav-selected: #ffffff;
+    --color-text-low-emphasis: grey;
+}
+
+#main > div > div > div.relative {
+    border: 1px solid var(--color-text-low-emphasis) !important;
+    border-radius: 10px !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    padding: 2px;
+}
+
+#main > div > div.share-box-feed-entry__closed-share-box.artdeco-card,
+div.overflow-hidden.feed-shared-poll.feed-shared-update-v2__content,
+section.artdeco-card.ember-view > ul.artdeco-list.ph4,
+section.org-top-card.artdeco-card > div.ember-view,
+div.org-grid__content-height-enforcer > div > div.ember-view.mb3,
+.artdeco-carousel__item-container {
+    border: 1px solid var(--color-text-low-emphasis) !important;
+    border-radius: 10px !important;
+    background: var(--black) !important;
+    padding: 2px !important;
+}
+
+svg.mercado-match > path,
+.mn-community-summary__entity-info > li-icon > svg > path,
+.msg-form__footer-action.artdeco-button.artdeco-button--tertiary.artdeco-button--circle.artdeco-button--muted.m0.artdeco-button--1 > li-icon > svg > path,
+.tenor-gif__button.relative > button > li-icon > svg > path,
+.artdeco-hoverable-trigger.artdeco-hoverable-trigger--content-placed-top.ember-view > button > li-icon > svg > path,
+.artdeco-dropdown.msg-search-form__choose-filters.artdeco-dropdown--placement-bottom.artdeco-dropdown--justification-right.ember-view > button > li-icon > svg > path,
+.artdeco-button.artdeco-button--circle.artdeco-button--muted.artdeco-button--1.artdeco-button--tertiary.ember-view > li-icon > svg > path {
+    fill: var(--color-action);
+}
+
+.feed-shared-mini-update-v2.feed-shared-update-v2__update-content-wrapper.artdeco-card {
+    border: 2px solid #1e272c !important;
+    background: var(--black) !important;
+}
+
+header,
+.comments-comment-item-content-body.break-words,
+.comments-comments-list,
+div.social-details-first-prompt-block.social-details-first-prompt-block__without-padding,
+.feed-shared-linkedin-video__sponsored-description-container.display-flex.align-items-center,
+div.feed-shared-update-v2__description-wrapper > div > button,
+.feed-shared-external-video__meta,
+.comments-highlighted-comment-item-content-body.break-words,
+#artdeco-hoverable-comments_overlay_emoji__emoji-hoverable__content > div.artdeco-hoverable-content__shell > div > div > header > ul,
+#app-boot-bg-loader,
+.msg-overlay-bubble-header__controls.display-flex,
+.msg-overlay-bubble-header > div,
+.social-details-social-counts__social-proof-text,
+div.comments-comment-box__form-container.flex-grow-1 > form > div,
+.msg-overlay-bubble-header__controls.display-flex > div > button,
+.msg-overlay-bubble-header__controls.display-flex > button,
+.msg-overlay-bubble-header__controls.display-flex > button,
+article.feed-shared-linkedin-video__description-container.display-flex.align-items-center,
+#profile-content > div > div.scaffold-layout.scaffold-layout--breakpoint-xl.scaffold-layout--main-aside.scaffold-layout--reflow.pv-profile > section,
+div > a > div.flex-1.display-flex.full-width > div > div.pvs-media-content__preview,
+.artdeco-carousel__item-container > div > a,
+div.pvs-list__outer-container > ul > li > div > div.display-flex.flex-row > a.app-aware-link.pr4.pb2.flex-1.pl2.pt2.feed-mini-update-optional-navigation-context-wrapper > div > span.inline-show-more-text__link-container-collapsed > button,
+div.pvs-list__outer-container > ul > li > div > div.display-flex.flex-row > a.app-aware-link.pr4.pb2.flex-1.pl2.pt2.feed-mini-update-optional-navigation-context-wrapper > div > span.inline-show-more-text__link-container-collapsed,
+div.pvs-list__outer-container > ul > li > div > div.display-flex.flex-row > a > div > span.inline-show-more-text__link-container-collapsed,
+div.pvs-list__outer-container > ul > li > div > div.display-flex.flex-row > a > div > span.inline-show-more-text__link-container-collapsed > button,
+div.pvs-list__outer-container > div > a,
+main > .artdeco-card.ember-view.break-words.mt4.pb3,
+div > article > div > div.feed-shared-article__description-container > div > a > div > div > div,
+div > article > div > div.feed-shared-article__description-container > div > a > div > div > div > h2,
+.comments-sort-order-toggle.mr2.ml3.mb2 > div > button > span,
+.msg-overlay-bubble-header__controls.display-flex > .artdeco-dropdown.artdeco-dropdown--placement-bottom.artdeco-dropdown--justification-right.ember-view,
+.invitation-card.artdeco-list__item,
+.feed-shared-inline-show-more-text .feed-shared-inline-show-more-text__see-more-less-toggle,
+main > div > section.artdeco-card.ember-view,
+.mn-abi-form__container.full-width.artdeco-card,
+div.display-flex.ph5.pv3 > div > div > div > span.inline-show-more-text__link-container-collapsed > button,
+div.display-flex.ph5.pv3 > div > div > div > span.inline-show-more-text__link-container-collapsed,
+div.pvs-list__outer-container > ul > li > div > ul > li > div > div > div > div > span.inline-show-more-text__link-container-collapsed > button,
+div.pvs-list__outer-container > ul > li > div > ul > li > div > div > div > div > span.inline-show-more-text__link-container-collapsed,
+div.pvs-list__outer-container > ul > li > div > div.display-flex.flex-column.full-width.align-self-center > div.pvs-list__outer-container > ul > li > div > div > div > div > div > span.inline-show-more-text__link-container-collapsed > button,
+div.pvs-list__outer-container > ul > li > div > div.display-flex.flex-column.full-width.align-self-center > div.pvs-list__outer-container > ul > li > div > div > div > div > div > span.inline-show-more-text__link-container-collapsed,
+.mn-summary-card-notification,
+section.artdeco-card.ember-view.org-highlight-posts-module,
+div > div.scaffold-layout__row.scaffold-layout__header > div,
+.artdeco-button--muted.artdeco-button--secondary,
+.msg-form__left-actions.display-flex,
+.msg-form__footer.flex-shrink-zero,
+li > div > div > #compactfooter-get_app_footer,
+.global-footer-compact__item > #compactfooter-more {
+    background-color: var(--black) !important;
+}
+
+.feed-shared-article__title.break-words.t-14.t-bold.t-black {
+    background: var(--black) !important;
+}
+
+.comments-comment-box__form-container.flex-grow-1 {
+    border: none !important;
+}
+
+.global-nav__icon-path,
+.ember-view.global-nav__branding > svg > g > path,
+div.content > div > div.linkedin-image.display-flex.justify-center > svg > g > g > path {
+    fill: var(--custom-theme) !important;
+}
+
+.premium-upsell-link > a {
+    display: none !important;
+}
+
+.feed-new-update-pill > div > button,
+.feed-new-update-pill__loader,
+.feed-new-update-pill__text > span,
+.feed-new-update-pill__text,
+.artdeco-button.artdeco-button--2.artdeco-button--primary.ember-view.full-height.white-space-nowrap.Elevation-6dp,
+input[type=checkbox]:checked + label:before {
+    background-color: var(--custom-theme);
+}
+
+.feed-new-update-pill__text > li-icon > svg > path,
+.nt-new-pill__container > button > li-icon > svg > path {
+    fill: var(--white);
+}
+
+li > a > div > .notification-badge.notification-badge--show,
+li > a > div > .notification-badge.notification-badge--show > span,
+.msg-overlay-bubble-header__unread-count,
+.notification-badge.notification-badge--show,
+.notification-badge.notification-badge--show > span {
+    background-color: var(--color-action) !important;
+    color: var(--black) !important;
+}
+
+.msg-overlay-bubble-header__unread-count > abbr {
+    background-color: var(--color-action) !important;
+    color: var(--black) !important;
+    border-radius: 100%;
+}
+
+.global-nav__me-photo.ember-view {
+    border: 1.5px solid var(--custom-theme) !important;
+}
+
+span.global-nav__primary-link-text {
+    color: var(--color-text-low-emphasis) !important;
+}
+
+a.global-nav__primary-link--active > span,
+#ads-container > section > section > div > h2 > span,
+#ads-container > section > section > div > h2,
+.scaffold-layout__sticky.scaffold-layout__sticky--md > div > div > a,
+.nt-new-pill__container > button > span {
+    color: var(--white) !important;
+}
+
+.artdeco-button.feed-new-update-pill__new-update-button.Elevation-6dp.justify-flex-start,
+.comments-comment-box__submit-button.mt3.artdeco-button.artdeco-button--1.artdeco-button--primary.ember-view {
+    background-color: var(--custom-theme) !important;
+}
+
+.artdeco-button__text.react-button__text,
+.artdeco-button__text,
+.type.exp.var-da--f300x250 .da-card-creative--mercado .da-card-creative__button,
+button.follow.is-following.feed-shared-actor__follow-button.feed-shared-update-v2__follow-button.artdeco-button.artdeco-button--muted.artdeco-button--tertiary > span,
+.share-box-feed-entry-toolbar__item-text,
+div.org-overflow-menu > div > button,
+div.display-flex.flex-column.flex-grow-1.mr3.mt1 > a > span > span > strong,
+article > div.display-flex.flex-column.flex-grow-1.mr3.mt1 > a > span > strong {
+    color: var(--color-action) !important;
+}
+
+.flex-shrink-zero > button,
+#ads-container > section > section.da-card-creative__button-wrapper > form > input.da-card-creative__button,
+.display-flex.align-items-center.mt2.mr4.ml4 > button,
+.pvs-profile-actions > button,
+.discover-entity-type-card__bottom-container > footer > button,
+.artdeco-button--muted.artdeco-button--secondary {
+    border: 1px solid var(--color-action) !important;
+}
+
+div.comments-comment-box__form-container.flex-grow-1 > form > div {
+    border: 1px solid var(--color-action) !important;
+    border-radius: 10px !important;
+}
+
+div.comments-comment-box__form-container.flex-grow-1 > form > div > div {
+    margin: 2.5px !important;
+}
+
+.comments-comment-box__submit-button.mt3.artdeco-button.artdeco-button--1.artdeco-button--primary.ember-view > span {
+    color: var(--black) !important;
+    background-color: var(--custom-theme) !important;
+}
+
+div.comments-comment-box__form-container.flex-grow-1 > form > div {
+    border: none !important;
+}
+
+div.vjs-control-bar > div > div > span,
+div.vjs-control-bar > button > span,
+div.vjs-custom-control-spacer.vjs-spacer,
+div.vjs-control-bar > div.vjs-time-display.vjs-control > div.vjs-time-control.vjs-time-divider > div > span,
+div.vjs-control-bar > div.vjs-volume-panel.vjs-control.vjs-volume-panel-vertical > button > span.vjs-icon-placeholder,
+div.feed-shared-control-menu.feed-shared-update-v2__control-menu.absolute.text-align-right > div,
+button.follow.feed-shared-actor__follow-button.feed-shared-update-v2__follow-button.artdeco-button.artdeco-button--tertiary > span,
+div.vjs-control-bar > div.vjs-time-display.vjs-control > div.vjs-time-control.vjs-time-divider,
+div.vjs-control-bar > div.vjs-time-display.vjs-control > div.vjs-time-control.vjs-time-divider > div,
+section.entity-hovercard__cta-container.mt3.display-flex > button > span,
+div.vjs-control-bar > div.vjs-playback-rate.vjs-menu-button.vjs-menu-button-popup.vjs-control.vjs-button > button > span.vjs-icon-placeholder,
+div.vjs-control-bar > div.vjs-playback-rate.vjs-menu-button.vjs-menu-button-popup.vjs-control.vjs-button > .vjs-playback-rate-value,
+.vjs-tooltip-container.vjs-tooltip-left.vjs-tooltip-active,
+.vjs-tooltip-container.vjs-tooltip-right.vjs-tooltip-active,
+div.ph5 > div > div.pv-top-card--photo.text-align-left.pv-top-card--photo-resize,
+.artdeco-button__text,
+div.org-top-card-primary-actions.inline-block.v-align-top.pb4.pt3 > div.org-top-card-primary-actions__inner > button > span,
+div.org-top-card-primary-actions__inner.org-top-card-primary-actions__inner--reverse-order > button > span,
+.nt-new-pill__container {
+    background-color: transparent !important;
+}
+
+.comments-comment-item-content-body,
+.comments-highlighted-comment-item-content-body,
+.comments-reply-item-content-body,
+.comments-post-meta__profile-info-wrapper.display-flex,
+.comments-post-meta__actor.display-flex.flex-column.overflow-hidden.t-12.t-normal.t-black--light > span,
+.comments-post-meta__actor.display-flex.flex-column.overflow-hidden.t-12.t-normal.t-black--light > span > span,
+.comments-comment-item__options,
+.comments-comment-item__options > time,
+.artdeco-dropdown.artdeco-dropdown--placement-bottom.artdeco-dropdown--justification-right.ember-view,
+.feed-shared-inline-show-more-text.comments-comment-item__inline-show-more-text > span > div,
+.feed-shared-inline-show-more-text.comments-comment-item__inline-show-more-text > span > div > span,
+div.comments-highlighted-comment-item-content-body.break-words > div > div > span > div,
+div.comments-highlighted-comment-item-content-body.break-words > div > div > span > div > span,
+div.comments-reply-item-content-body.break-words > div > div,
+div.comments-highlighted-comment-item-content-body.break-words,
+div.comments-reply-item-content-body.break-words > div > div > span > div > span > span,
+div.comments-comment-item__options > span,
+div.comments-highlighted-comment-item-content-body.break-words > div > div > button,
+div.scaffold-layout__sticky.scaffold-layout__sticky--is-active.scaffold-layout__sticky--lg > div > section,
+#ads-container > section,
+#ads-container > section > header > div,
+span.distance-badge.t-black--light.t-14.separator.t-black--light.comments-post-meta__distance-badge > span.dist-value,
+div.comments-highlighted-comment-item-content-body.break-words > div > div.comments-display-content > div.comments-hero-entity--image-share > div,
+div.comments-highlighted-comment-item-content-body.break-words > div > div.comments-display-content > div.comments-hero-entity--image-share > div > div,
+#profile-content > div > div.scaffold-layout.scaffold-layout--breakpoint-xl.scaffold-layout--main-aside.scaffold-layout--reflow.pv-profile > div > div > aside > section.ad-banner-container.artdeco-card.overflow-hidden,
+article.feed-shared-article.feed-shared-update-v2__content > div,
+div.feed-shared-article__description-container > div > a > div > div > div,
+.feed-shared-article__title.break-words.t-14.t-bold.t-black,
+article > div > div.feed-shared-article__description-container > div > a > div > div > div > h3,
+article > div > div.feed-shared-article__description-container > div > a > div > div > div > h2 > span,
+div > article > div > div.feed-shared-article__description-container > div > a > div > div > div,
+.feed-shared-poll-option__bar-percent,
+div > article > div > div.feed-shared-article__description-container,
+div > article > div > div.feed-shared-article__description-container > div > a,
+div.comments-post-meta.comments-comment-item__post-meta > div,
+div.scaffold-layout__sticky.scaffold-layout__sticky--md > div > div,
+.community-panel-interest-package.community-panel-interest-package--expanded,
+.community-panel-interest-package__section-expanded > li,
+.community-panel-interest-package__section-expanded > li > a > div > span > span,
+.community-panel-interest-package__section-expanded > li > a > div,
+div.scaffold-layout.scaffold-layout--breakpoint-xl.scaffold-layout--sidebar-main-aside.scaffold-layout--reflow > div > div > div > div.scaffold-layout__sticky.scaffold-layout__sticky--md > div > div > div > button > span,
+.community-panel-interest-package__section-header,
+.community-panel-interest-package__section-header > header,
+.community-panel-interest-package__section-header > header > h2,
+.community-panel-interest-package__section-header > header > h2 > a > span,
+.community-panel-interest-package__actions,
+.community-panel-interest-package__actions > div > div,
+div.flex-grow-1,
+span.comments-comment-item__main-content.feed-shared-main-content--comment.t-14.t-black.t-normal,
+div.comments-highlighted-comment-item-content-body.break-words > div > div > span > div > span > span,
+div.comments-comment-item-content-body.break-words > div > div > span > div > span > span,
+div.comments-comment-item-content-body.break-words,
+div.comments-comment-item-content-body.break-words > div > div > button,
+div.comments-reply-item-content-body.break-words > div > div > button,
+.feed-identity-module.artdeco-card.overflow-hidden.mb2,
+a > h3.t-12.t-black--light.t-normal,
+a > span.display-flex.align-items-center > span,
+span.display-flex.align-items-center,
+a > span.t-12.t-black.t-bold.v-align-middle.block,
+.entity-list-item > div.entity-item.ember-view,
+.entity-list-item > div.entity-item.ember-view > a > div > div > div > span,
+div.entity-item.ember-view > a > div > div,
+div > div.feed-identity-widget-item__icon-stat.t-12.t-black.t-bold.flex-1 > span,
+div.feed-identity-module.artdeco-card.overflow-hidden.mb2 > div.feed-identity-module__actor-meta.break-words,
+.ember-view.block > div,
+div.feed-identity-module.artdeco-card.overflow-hidden.mb2 > div.feed-identity-module__actor-meta.break-words > p,
+.search-global-typeahead__input.always-show-placeholder,
+.ad-banner-container.pt2.overflow-hidden,
+.global-footer-compact.ph5.pb1 > div,
+.global-footer-compact.ph5.pb1 > div > ul,
+.global-footer-compact.ph5.pb1 > div > div,
+.global-footer-compact.ph5.pb1 > div > ul > li > a > span,
+.global-footer-compact.ph5.pb1 > div > ul > li > div > div > button > span > span,
+.global-footer-compact.ph5.pb1 > div > ul > li > div > button > span > span,
+#compactfooter-get_app_footer,
+#compactfooter-more,
+.ad-banner-container.artdeco-card.p1.mb4,
+div.msg-form__contenteditable.t-14.t-black--light.t-normal.flex-grow-1.full-height.notranslate > p,
+.nt-settings-summary,
+.nt-application__left-rail-title-card.p4.text-align-cente,
+.scaffold-layout__sticky-content > section,
+div.nt-application__left-rail-title-card.p4.text-align-center,
+div.nt-application__left-rail-title-card.p4.text-align-center > h3,
+div.nt-application__left-rail-title-card.p4.text-align-center > p,
+div.nt-settings-summary > span,
+#main > div > div > div > div > section > article,
+.nt-segment__occludable-area.ember-view > article,
+.nt-card__text--3-line,
+div.display-flex.flex-column.flex-grow-1.mr3.mt1 > a > span > span,
+article > div.display-flex.flex-column.flex-grow-1.mr3.mt1 > a > span > span > strong,
+article > div.display-flex.flex-column.flex-grow-1.mr3.mt1 > a > span > span > span,
+article > div.display-flex.flex-column.flex-grow-1.mr3.mt1 > a > span > strong,
+article > div.display-flex.flex-column.flex-grow-1.mr3.mt1 > section,
+article > div.display-flex.flex-column.flex-grow-1.mr3.mt1 > section > span,
+article > div.display-flex.flex-column.text-align-right.align-self-flex-start > p,
+article > div.display-flex.flex-column.text-align-right.align-self-flex-start,
+.ivm-view-attr__img-wrapper.ivm-view-attr__img-wrapper--use-img-tag.display-flex,
+.nt-card__left-rail,
+#search-conversations,
+.msg-conversations-container__title-row,
+div.msg-conversations-container__header.relative > div.msg-conversations-container__title-row > h1,
+div.msg-conversations-container__header.relative > div.msg-search-form.global-title-container.shared-title-bar > div,
+.msg-conversations-container__pillar,
+.msg-conversations-container__pillar > div > a,
+.msg-conversations-container__pillar > div > a > div,
+.msg-conversations-container__pillar > div > a > div > div > div,
+.msg-conversations-container__pillar > div > a > div > div > div > h3,
+div.msg-conversation-card__content--selectable > div > div.msg-conversation-card__row.msg-conversation-card__body-row > div.msg-conversation-card__message-snippet-container.flex-grow-1 > p,
+div.msg-conversation-card__content--selectable > div > div.msg-conversation-card__row.msg-conversation-card__body-row > div.msg-conversation-card__message-snippet-container.flex-grow-1 > p > span > span,
+div.msg-conversation-card__content--selectable > div > div.msg-conversation-card__row.msg-conversation-card__title-row > time,
+div.msg-conversation-card__content--selectable > div > div.msg-conversation-card__row.msg-conversation-card__title-row > div,
+.msg-conversations-container__pillar > div > a > span,
+#main > div > section.scaffold-layout__list.msg__list > div.msg-conversations-container__header.relative > div.msg-bulk-actions-panel.ph2,
+#main > div > section.scaffold-layout__list.msg__list > div.msg-conversations-container__header.relative > div.msg-bulk-actions-panel.ph2 > div,
+#main > div > section.scaffold-layout__list.msg__list > div.msg-conversations-container__header.relative > div.msg-bulk-actions-panel.ph2 > div > span,
+div.msg-selectable-entity.msg-selectable-entity__checkbox-only.msg-selectable-entity--4 > div.msg-selectable-entity__checkbox-container,
+#main > div > section.scaffold-layout__detail.msg__detail > div.msg-convo-wrapper.msg-thread.msg-thread--pillar.relative.display-flex > div.msg-title-bar.global-title-container.shared-title-bar > div,
+#main > div > section.scaffold-layout__detail.msg__detail > div.msg-convo-wrapper.msg-thread.msg-thread--pillar.relative.display-flex > div.msg-title-bar.global-title-container.shared-title-bar > div > a > div,
+div.msg-title-bar.global-title-container.shared-title-bar > div > a > div > dl > dt,
+div.msg-title-bar.global-title-container.shared-title-bar > div > a > div > dl > dt > h2,
+.msg-entity-lockup__entity-info.t-12.t-black--light.t-normal.truncate > div,
+div.msg-selectable-entity.msg-selectable-entity--4 > div.msg-selectable-entity__checkbox-container,
+#msg-overlay > div.msg-overlay-list-bubble.ml4 > div.msg-bulk-actions-panel.ph2,
+#msg-overlay > div.msg-overlay-list-bubble.ml4 > div.msg-bulk-actions-panel.ph2 > div,
+#msg-overlay > div.msg-overlay-list-bubble.ml4 > div.msg-bulk-actions-panel.ph2 > div > span,
+.msg-selectable-entity.msg-selectable-entity--4 > div,
+div.msg-conversation-card__row.msg-conversation-card__body-row > div.msg-conversation-card__message-snippet-container.flex-grow-1 > p > span {
+    background: #181f23 !important;
+}
+
+.search-global-typeahead__search-icon-container,
+#msg-overlay-list-bubble-search__search-typeahead-input {
+    background: #181f23 !important;
+    border-radius: 10px !important;
+}
+
+.feed-shared-poll-option__bar-percent {
+    background: rgb(24, 31, 35, 0.5) !important;
+}
+
+#msg-overlay > div.msg-overlay-list-bubble.ml4 > header {
+    border-bottom: 1px solid #181f23 !important;
+}
+
+.loading-bar {
+    height: 3px !important;
+    background: transparent !important;
+}
+
+#ads-container > section > header > div > h2,
+#ads-container > div.al--tag--wrapper > div > span {
+    color: gray !important;
+}
+
+#ads-container > div.ac.ac--dropdown > div > div.ac__icon-row > svg > g > g > path {
+    fill: grey !important;
+}
+
+div.feed-shared-control-menu.feed-shared-update-v2__control-menu.absolute.text-align-right > div > div {
+    border-top-color: var(--black) !important;
+}
+
+.entity-hovercard.hovercard-left.active.p4,
+div.feed-shared-announcement.feed-shared-update-v2__update-content-wrapper.artdeco-card,
+div.feed-shared-mini-update-v2.feed-shared-update-v2__update-content-wrapper.artdeco-card > div.overflow-hidden.feed-shared-poll.feed-shared-mini-update-v2__reshared-content {
+    background: var(--black) !important;
+    border: 1px solid grey !important;
+}
+
+.emoji-hoverable__skintone-dropdown-trigger > .aria-hidden {
+    background: var(--black) !important;
+    color: var(--white) !important;
+}
+
+.reactions-menu.reactions-menu--active {
+    background: var(--black) !important;
+    border: 1px solid grey !important;
+}
+
+.mn-invitations-preview.mb4.artdeco-card.ember-view,
+.artdeco-card.mb4.overflow-hidden,
+.discover-fluid-entity-list.discover-fluid-entity-list--default-width-cards > li > div > section,
+.artdeco-card.artdeco-card--with-hover.ember-view.discover-entity-type-card.Elevation-0dp {
+    border: 1px solid grey !important;
+    background: var(--black) !important;
+    padding: 2px !important;
+}
+
+span.discover-person-card__occupation.t-14.t-black--light.t-normal {
+    padding-bottom: 50px !important;
+}
+
+div > div.overflow-hidden.feed-shared-poll.feed-shared-update-v2__content > div > div > div > div.display-flex.align-items-center.overflow-hidden.full-width.relative > div:hover > div > span,
+div.feed-shared-mini-update-v2.feed-shared-update-v2__update-content-wrapper.artdeco-card > div.overflow-hidden.feed-shared-poll.feed-shared-mini-update-v2__reshared-content > div > div > div > div.display-flex.align-items-center.overflow-hidden.full-width.relative > div:hover > div > span {
+    background-color: var(--color-background-none-tint-action-hover) !important;
+    transition: width .4s cubic-bezier(.4, 0, .2, 1), background-color 167ms cubic-bezier(.4, 0, .2, 1), box-shadow 167ms cubic-bezier(.4, 0, .2, 1), color 167ms cubic-bezier(.4, 0, .2, 1);
+}
+
+.flex-grow-1.mr2.mvA.feed-index-sort-border,
+.pvs-entity--with-path::before,
+div.pvs-list__outer-container > ul > li > div > div.display-flex.flex-column.full-width.align-self-center > div.pvs-list__outer-container > ul > li > span {
+    background-color: grey !important;
+}
+}
