@@ -10,3 +10,6 @@ These are config files to set up a system the way I like it. I am running on Mac
 
 ## Hacker News
 ![Hacker News](Images/HackerNews.png)
+
+## Linkedin
+![Linkedin](Images/Linkedin.png)
