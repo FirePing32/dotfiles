@@ -93,7 +93,8 @@ div > div.scaffold-layout__row.scaffold-layout__header > div,
 .msg-form__left-actions.display-flex,
 .msg-form__footer.flex-shrink-zero,
 li > div > div > #compactfooter-get_app_footer,
-.global-footer-compact__item > #compactfooter-more {
+.global-footer-compact__item > #compactfooter-more,
+div > div.feed-shared-actor.display-flex > a > div.feed-shared-actor__image.relative > span > div > div {
     background-color: var(--black) !important;
 }
 
@@ -256,7 +257,6 @@ div.feed-shared-article__description-container > div > a > div > div > div,
 article > div > div.feed-shared-article__description-container > div > a > div > div > div > h3,
 article > div > div.feed-shared-article__description-container > div > a > div > div > div > h2 > span,
 div > article > div > div.feed-shared-article__description-container > div > a > div > div > div,
-.feed-shared-poll-option__bar-percent,
 div > article > div > div.feed-shared-article__description-container,
 div > article > div > div.feed-shared-article__description-container > div > a,
 div.comments-post-meta.comments-comment-item__post-meta > div,
@@ -277,6 +277,11 @@ span.comments-comment-item__main-content.feed-shared-main-content--comment.t-14.
 div.comments-highlighted-comment-item-content-body.break-words > div > div > span > div > span > span,
 div.comments-comment-item-content-body.break-words > div > div > span > div > span > span,
 div.comments-comment-item-content-body.break-words,
+div.comments-comment-item-content-body.break-words > div > div,
+div.feed-shared-linkedin-video__description-container--learning.ph4.pv3.display-flex.align-items-flex-start,
+div.feed-shared-linkedin-video__description-container--learning.ph4.pv3.display-flex.align-items-flex-start > a > h2,
+linkedin-logo > span,
+div > div.feed-shared-linkedin-video.feed-shared-update-v2__content.feed-shared-linkedin-video--learning > a,
 div.comments-comment-item-content-body.break-words > div > div > button,
 div.comments-reply-item-content-body.break-words > div > div > button,
 .feed-identity-module.artdeco-card.overflow-hidden.mb2,
@@ -351,7 +356,8 @@ div.msg-selectable-entity.msg-selectable-entity--4 > div.msg-selectable-entity__
 #msg-overlay > div.msg-overlay-list-bubble.ml4 > div.msg-bulk-actions-panel.ph2 > div,
 #msg-overlay > div.msg-overlay-list-bubble.ml4 > div.msg-bulk-actions-panel.ph2 > div > span,
 .msg-selectable-entity.msg-selectable-entity--4 > div,
-div.msg-conversation-card__row.msg-conversation-card__body-row > div.msg-conversation-card__message-snippet-container.flex-grow-1 > p > span {
+div.msg-conversation-card__row.msg-conversation-card__body-row > div.msg-conversation-card__message-snippet-container.flex-grow-1 > p > span,
+article > div > div.feed-shared-article__description-container > div > a > div > div > h2 {
     background: #181f23 !important;
 }
 
@@ -362,7 +368,7 @@ div.msg-conversation-card__row.msg-conversation-card__body-row > div.msg-convers
 }
 
 .feed-shared-poll-option__bar-percent {
-    background: rgb(24, 31, 35, 0.5) !important;
+    background: #1b2328 !important;
 }
 
 #msg-overlay > div.msg-overlay-list-bubble.ml4 > header {
