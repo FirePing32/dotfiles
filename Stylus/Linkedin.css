@@ -173,7 +173,8 @@ button.follow.is-following.feed-shared-actor__follow-button.feed-shared-update-v
 .share-box-feed-entry-toolbar__item-text,
 div.org-overflow-menu > div > button,
 div.display-flex.flex-column.flex-grow-1.mr3.mt1 > a > span > span > strong,
-article > div.display-flex.flex-column.flex-grow-1.mr3.mt1 > a > span > strong {
+article > div.display-flex.flex-column.flex-grow-1.mr3.mt1 > a > span > strong,
+.artdeco-dropdown.artdeco-dropdown--placement-bottom.artdeco-dropdown--justification-left.ember-view > button > span {
     color: var(--color-action) !important;
 }
 
