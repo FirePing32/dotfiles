@@ -174,7 +174,9 @@ button.follow.is-following.feed-shared-actor__follow-button.feed-shared-update-v
 div.org-overflow-menu > div > button,
 div.display-flex.flex-column.flex-grow-1.mr3.mt1 > a > span > span > strong,
 article > div.display-flex.flex-column.flex-grow-1.mr3.mt1 > a > span > strong,
-.artdeco-dropdown.artdeco-dropdown--placement-bottom.artdeco-dropdown--justification-left.ember-view > button > span {
+.artdeco-dropdown.artdeco-dropdown--placement-bottom.artdeco-dropdown--justification-left.ember-view > button > span,
+section > div > div > div.pv-profile-sticky-header-v2__actions-container > div > div > a,
+div.ph5.pb5 > div.pv-top-card-v2-ctas.pt2.display-flex > div > a {
     color: var(--color-action) !important;
 }
 
