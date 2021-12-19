@@ -1,6 +1,6 @@
 {
   "files.autoSaveDelay": 1000,
-  "editor.fontSize": 16,
+  "editor.fontSize": 18,
   "editor.lineHeight": 25,
   "editor.letterSpacing": 0.3,
   "editor.tabSize": 2,
@@ -46,6 +46,6 @@
   "zenMode.centerLayout": false,
   "files.autoSave": "afterDelay",
   "explorer.confirmDelete": false,
-  "workbench.activityBar.visible": false,
-  "workbench.statusBar.visible": false
+  "workbench.statusBar.visible": false,
+  "workbench.activityBar.visible": false
 }
