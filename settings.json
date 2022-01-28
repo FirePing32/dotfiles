@@ -40,12 +40,17 @@
   "git.enabled": true,
   "files.trimTrailingWhitespace": true,
   "eslint.alwaysShowStatus": true,
+  "terminal.integrated.fontSize": 14,
+  "window.zoomLevel": 0.2,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "workbench.colorTheme": "Winter is Coming (Dark Blue)",
   "search.showLineNumbers": true,
   "zenMode.centerLayout": false,
   "files.autoSave": "afterDelay",
   "explorer.confirmDelete": false,
+  "redhat.telemetry.enabled": false,
+  "python.defaultInterpreterPath": "/usr/local/bin/python3",
+  "explorer.confirmDragAndDrop": false,
   "workbench.statusBar.visible": false,
   "workbench.activityBar.visible": false
 }
