@@ -1,9 +1,54 @@
 {
-  "breadcrumbs.enabled": false,
-  "search.showLineNumbers": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.accessibilitySupport": "off",
+  "editor.autoIndent": "full",
+  "editor.cursorBlinking": "solid",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorStyle": "line",
+  "editor.fontFamily": "Menlo",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 18,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.letterSpacing": 0.3,
+  "editor.lineHeight": 25,
+  "editor.lineNumbers": "on",
+  "editor.minimap.enabled": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.overviewRulerBorder": false,
+  "editor.renderLineHighlight": "none",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.smoothScrolling": true,
+  "editor.suggestSelection": "first",
+  "editor.wordWrap": "on",
+  "eslint.alwaysShowStatus": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
   "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "files.trimTrailingWhitespace": true,
+  "git.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "python.defaultInterpreterPath": "/usr/local/bin/python3",
+  "redhat.telemetry.enabled": false,
+  "search.showLineNumbers": true,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
   "terminal.integrated.fontSize": 14,
-  "workbench.editor.showTabs": false,
+  "window.nativeTabs": false,
   "workbench.colorCustomizations": {
     "titleBar.activeBackground": "#011627",
     "titleBar.activeForeground": "#FFFFFF",
@@ -11,57 +56,26 @@
     "titleBar.inactiveBackground": "#011627",
     "titleBar.inactiveForeground": "#FFFFFF"
   },
-  "editor.lineHeight": 25,
-  "python.defaultInterpreterPath": "\/usr\/local\/bin\/python3",
-  "files.trimTrailingWhitespace": true,
-  "editor.scrollbar.vertical": "hidden",
-  "editor.fontFamily": "Menlo",
-  "editor.smoothScrolling": true,
-  "workbench.startupEditor": "newUntitledFile",
-  "editor.tabSize": 2,
-  "editor.accessibilitySupport": "off",
-  "editor.hideCursorInOverviewRuler": true,
-  "window.zoomLevel": 0.20000000000000001,
-  "editor.cursorBlinking": "solid",
-  "explorer.confirmDelete": false,
-  "git.enabled": true,
-  "terminal.integrated.env.osx": {
-    "FIG_NEW_SESSION": "1"
-  },
-  "editor.formatOnPaste": true,
-  "editor.overviewRulerBorder": false,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.cursorSmoothCaretAnimation": true,
-  "explorer.confirmDragAndDrop": false,
-  "workbench.tree.renderIndentGuides": "none",
-  "editor.renderLineHighlight": "none",
-  "editor.formatOnType": false,
-  "zenMode.centerLayout": false,
-  "editor.fontSize": 18,
-  "eslint.alwaysShowStatus": true,
-  "editor.cursorStyle": "line",
-  "editor.scrollbar.horizontal": "hidden",
-  "editor.lineNumbers": "on",
-  "editor.autoIndent": "full",
-  "redhat.telemetry.enabled": false,
-  "window.nativeTabs": false,
-  "editor.suggestSelection": "first",
-  "editor.minimap.enabled": false,
-  "workbench.colorTheme": "Winter is Coming (Dark Blue)",
-  "editor.fontLigatures": true,
-  "workbench.sideBar.location": "right",
-  "[scss]": {
-    "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
-  },
+  "workbench.editor.showTabs": "single",
   "workbench.iconTheme": "material-icon-theme",
-  "files.autoSaveDelay": 1000,
-  "editor.wordWrap": "on",
-  "editor.formatOnSave": true,
-  "editor.letterSpacing": 0.29999999999999999,
-  "editor.multiCursorModifier": "ctrlCmd",
-  "workbench.statusBar.visible": false,
-  "workbench.activityBar.visible": false,
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  }
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.tree.renderIndentGuides": "none",
+  "zenMode.centerLayout": false,
+  "prettier.tabWidth": 4,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    "*.ts": "javascript"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "breadcrumbs.enabled": false,
+  "workbench.colorTheme": "Radical",
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "workbench.statusBar.visible": false
 }
