@@ -24,7 +24,7 @@
     "Alpha Component" : 1,
     "Green Component" : 0.87058824300765991
   },
-  "Use Custom Window Title" : true,
+  "Use Custom Window Title" : false,
   "Right Option Key Sends" : 0,
   "Character Encoding" : 4,
   "Selection Color" : {
@@ -46,6 +46,7 @@
   "Sync Title" : false,
   "Disable Window Resizing" : true,
   "Description" : "Default",
+  "Custom Locale" : "en_AU.UTF-8",
   "Close Sessions On End" : true,
   "Jobs to Ignore" : [
     "rlogin",
@@ -53,7 +54,7 @@
     "slogin",
     "telnet"
   ],
-  "Scrollback Lines" : 1000,
+  "Scrollback Lines" : 0,
   "Draw Powerline Glyphs" : true,
   "Hide After Opening" : false,
   "Flashing Bell" : false,
@@ -74,7 +75,7 @@
   },
   "Icon" : 0,
   "Use Non-ASCII Font" : false,
-  "Use Custom Tab Title" : true,
+  "Use Custom Tab Title" : false,
   "Shortcut" : "",
   "Link Color" : {
     "Red Component" : 0.50980395078659058,
@@ -91,8 +92,8 @@
     "Alpha Component" : 1,
     "Green Component" : 0.85882353782653809
   },
-  "Custom Window Title" : "Starship",
-  "Unlimited Scrollback" : false,
+  "Custom Window Title" : "",
+  "Unlimited Scrollback" : true,
   "Custom Command" : "No",
   "Keyboard Map" : {
     "0xf700-0x260000" : {
@@ -315,7 +316,7 @@
     "Alpha Component" : 1,
     "Green Component" : 0.32549020648002625
   },
-  "Name" : "Starship",
+  "Name" : "Prakhar",
   "Blinking Cursor" : false,
   "Guid" : "42D28833-70BC-47BD-92CE-7004E13FEF7C",
   "Idle Code" : 0,
@@ -396,7 +397,7 @@
     "Green Component" : 0.086274512112140656
   },
   "Screen" : -1,
-  "Custom Tab Title" : "Starship",
+  "Custom Tab Title" : "",
   "Bound Hosts" : [
 
   ],
@@ -417,5 +418,6 @@
     "Blue Component" : 0.91764706373214722,
     "Alpha Component" : 1,
     "Green Component" : 0.57254904508590698
-  }
+  },
+  "Set Local Environment Vars" : 2
 }
